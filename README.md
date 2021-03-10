@@ -302,7 +302,7 @@ Pontos importantes:
   * O atributo `src` do logotipo deve apontar para ``./images/Trybewarts-colored.svg``
   * A imagem deve possuir um `height` de `500px`
 
-### 8. No formulário, crie inputs de 'Nome:', 'Sobrenome:' e 'Email'
+### 8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email'
 
   Pontos importantes:
   * Inputs de *'Nome'*, *'Sobrenome'* e *'Email'* deverão ser criados

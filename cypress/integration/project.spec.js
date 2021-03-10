@@ -204,7 +204,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe("8 - No formulário, crie inputs de 'Nome:', 'Sobrenome:' e 'Email'", () => {
+  describe("8 - Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email:'", () => {
     it('Inputs de Nome, Sobrenome e Email deverão ser criados', () => {
       cy.get(USER_NAME_INPUT_SELECTOR).should('exist');
       cy.get(USER_LASTNAME_INPUT_SELECTOR).should('exist');
