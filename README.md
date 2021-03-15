@@ -117,7 +117,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 3. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-0x-project-hogwarts-nps-form**_
+    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joaozinho/code/**sd-0x-project-trybewarts**_
   * Crie os arquivos index.html, style.css e script.js
     * Exemplo: `touch index.html style.css script.js`
 
@@ -245,12 +245,24 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * A classe `header` deve determinar que o elemento é um flex container
   * A classe header deve possuir a propriedade `background-color: rgb(50, 167, 145)`
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 2. Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` no canto esquerdo da barra superior
 
   Pontos importantes:
   * Deve existir um elemento img com a classe `trybewarts-header-logo`
   * O logotipo deve estar alinhado à esquerda dentro da barra verde
   * O atributo `src` do logotipo deve apontar para `images/trybewarts-header-logo.svg`
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 3. Acrescente um formulário de autenticação no canto direito da barra superior contendo os inputs de login, de senha e um botão de entrar
 
@@ -264,6 +276,12 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
     - Caso o login ou a senha sejam **diferentes** do padrão, ao clicar no botão deverá ser emitido um alerta contendo o texto *'Login ou senha inválidos.'*
     - Caso o login ou a senha sejam **as mesmas** definidas por padrão, ao clicar no botão deverá ser emitido um alerta contendo o texto *'Olá, Tryber!'*
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 4. Crie um título com o texto 'Trybewarts' centralizado dentro do 'Header'
 
 Pontos importantes:
@@ -273,6 +291,12 @@ Pontos importantes:
     - O header deve ter exatamente três elementos filhos
     - O filho do meio deve ser o título
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 5. Adicione um formulário no corpo da página, posicionado ao lado esquerdo
 
   Pontos importantes:
@@ -281,12 +305,24 @@ Pontos importantes:
   * Tanto o formulário quanto o `main` devem ser flex containers
   * O formulário deve ter uma largura de 675px
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 6. Crie um id para o formulário do requisito 5
 
   Pontos importantes:
   * Esse id deverá se chamar `evaluation-form`
   * Esse id deverá possuir a propriedade `display: flex`
   * Alinhe o eixo principal dessa classe para ser o eixo vertical
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 7. Adicione a logo da Trybewarts no lado direito da página
 
@@ -295,12 +331,24 @@ Pontos importantes:
   * O atributo `src` do logotipo deve apontar para ``./images/Trybewarts-colored.svg``
   * A imagem deve possuir um `height` de `500px`
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email'
 
   Pontos importantes:
   * Inputs de *'Nome'*, *'Sobrenome'* e *'Email'* deverão ser criados
   *Os inputs devem possuir os ids 'input-name', 'input-lastname' e 'input-email'
   * Os inputs deverão conter um placeholder com *'Nome'*, *'Sobrenome'* e *'Email'* em seus respectivos campos
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 9. Crie um select 'Casa' contendo quatro options
 
@@ -310,16 +358,34 @@ Pontos importantes:
   * Deverá conter a opção `Corvinode`e um id ``corvinode-house``
   * Deverá conter a opção `Pytherina`e um id ``pytherina-house``
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 10. Alinhe os campos de 'Nome' e 'Sobrenome' para que fiquem em linha
 
   Pontos importantes:
   * Os campos de *'Nome'* e *'Sobrenome'* devem estar lado a lado
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 11. Alinhe os campos de 'Email' e 'Casa' para que fiquem em linha
 
   Pontos importantes:
   * Os campos de *'Email'* e *'Casa'* devem estar abaixo dos de *'Nome'* e *'Sobrenome'*
   * Os campos de *'Email'* e *'Casa'* devem estar lado a lado
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 12. Crie um campo de entrada para qual família a pessoa estudante se identifica
 
@@ -330,6 +396,12 @@ Pontos importantes:
   * Posicione os radio buttons para ficar abaixo um do outro
   * Posicione os radio buttons abaixo do label
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 13. Crie campos de entrada do tipo 'checkbox' contendo seis opções
 
   Pontos importantes:
@@ -338,6 +410,12 @@ Pontos importantes:
   * Os valores (`value`) dos campos são, respectivamente: *Higher Order Functions*, *Jest*, *Promises*, *React*, *SQL*, *Python*
   * Posicione as checkbox para ficar lado a lado
   * Posicione as checkbox a abaixo do label
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 14. Crie campo de entrada para avaliar de 1 a 10 o nível de satisfação com a Trybewarts
 
@@ -348,11 +426,23 @@ Pontos importantes:
   * Posicione os radio buttons para ficar lado a lado
   * Posicione os radio buttons à direita da label
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 15. Crie uma textarea com o id 'textarea' contendo o número máximo de caracteres igual à 500
 
   Pontos importantes:
   * Um elemento com o id `textarea` e o texto *"Deixe seu comentário:"* deverá ser criado
   * O campo `textarea` deverá ter o máximo de 500 caracteres
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ### 16. Crie um campo de entrada do tipo 'checkbox' com o id 'agreement' para validar as informações
 
@@ -362,6 +452,12 @@ Pontos importantes:
   * O campo de 'checkbox' deve possuir o ID `agreement`
   * Posicione a checkbox ao lado da label
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 17. Crie um botão de Enviar para submeter o formulário
 
   Pontos importantes:
@@ -369,16 +465,34 @@ Pontos importantes:
   * O botão deve possuir o ID `submit-btn`
   * Deverá conter o texto *'Enviar'*
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 18. Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 16 ser selecionada
 
   Pontos importantes:
   * O botão deverá estar desabilitado caso a checkbox não esteja selecionada
   * O botão deverá ser habilitado caso a checkbox seja selecionada
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 19. Crie um rodapé no final da página
 
   Pontos importantes:
   * O rodapé deverá conter o texto *"Direitos reservados à Trybewarts©"*
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 
 ## Lista de requisitos bônus:
@@ -391,6 +505,12 @@ Pontos importantes:
   * O contador deverá decrementar a medida que algo for escrito no campo `textarea`
   * O contador deverá incrementar a medida que algo for deletado no campo `textarea`
 
+  #### O que será verificado:
+
+  -
+  -
+  -
+
 ### 21. Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas
   Pontos importantes:
   * Todos os campos do formulário devem ser substituídos.
@@ -401,6 +521,12 @@ Pontos importantes:
   * Deve haver um campo com o formato "Matérias: Matérias, Marcadas, Aqui"
   * Deve haver um campo com o formato "Avaliação: NotaAqui"
   * Deve haver um campo com o formato "Observações: Observações aqui"
+
+  #### O que será verificado:
+
+  -
+  -
+  -
 
 ---
 
