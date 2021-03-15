@@ -5,11 +5,11 @@
       "bonus": false
     },
     { 
-      "description": "2 - A barra superior deve conter o logotipo do Trybewarts no canto esquerdo com a classe trybewarts-header-logo",
+      "description": "2 - Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` no canto esquerdo da barra superior",
       "bonus": false
     },
     { 
-      "description": "3 - A barra superior deve conter um formulário de autenticação no canto direito com um input de login, um de senha e um botão de entrar",
+      "description": "3 - Acrescente um formulário de autenticação no canto direito da barra superior contendo os inputs de login, de senha e um botão de entrar",
       "bonus": false
     },
     { 
@@ -41,7 +41,7 @@
       "bonus": false
     },
     { 
-      "description": "11 - Alinhe os campos de 'Email' e 'Casa' para fiquem em linha",
+      "description": "11 - Alinhe os campos de 'Email' e 'Casa' para que fiquem em linha",
       "bonus": false
     },
     { 
@@ -69,7 +69,7 @@
       "bonus": false
     },
     { 
-      "description": "18 - O botão 'Enviar' deverá ser habilitado somente após a checkbox do requisito 17 ser selecionada",
+      "description": "18 - Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 16 ser selecionada",
       "bonus": false
     },
     { 
@@ -77,11 +77,11 @@
       "bonus": false
     },
     { 
-      "description": "20 - Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que devera ser atualizado a medida que algo for digitado na textarea",
+      "description": "20 - Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea",
       "bonus": true
     },
     { 
-      "description": "21 - Ao clicar no botão 'Enviar', o conteúdo do formulário deve ser substituído pelas informações preenchidas",
+      "description": "21 - Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas",
       "bonus": true
     }
   ]

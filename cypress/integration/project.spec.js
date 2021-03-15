@@ -79,7 +79,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('2 - A barra superior deve conter o logotipo do Trybewarts no canto esquerdo com a classe trybewarts-header-logo', () => {
+  describe('2 - Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` no canto esquerdo da barra superior', () => {
     it('Deve existir um elemento img com a classe `trybewarts-header-logo`', () => {
       cy.get(TRYBEWARTS_LOGO_SELECTOR).should('exist');
     });
@@ -93,7 +93,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('3 - A barra superior deve conter um formulário de autenticação no canto direito com um input de login, um de senha e um botão de entrar', () => {
+  describe('3 - Acrescente um formulário de autenticação no canto direito da barra superior contendo os inputs de login, de senha e um botão de entrar', () => {
     it('Existe um formulário com a classe trybewarts-login', () => {
       cy.get(TRYBEWARTS_LOGIN_FORM_SELECTOR).should('exist');
     });
@@ -245,7 +245,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe("11 - Alinhe os campos de 'Email' e 'Casa' para fiquem em linha", () => {
+  describe("11 - Alinhe os campos de 'Email' e 'Casa' para que fiquem em linha", () => {
     it('Os campos de Email e Casa devem estar lado a lado', () => {
       checkIsRightOf('#input-email', '#house');
     });
@@ -363,7 +363,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe("18 - O botão 'Enviar' deverá ser habilitado somente após a checkbox do requisito 17 ser selecionada", () => {
+  describe("18 - Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 16 ser selecionada", () => {
     it('O botão deve inicialmente estar desabilitado', () => {
       cy.get('button#submit-btn')
         .should('be.disabled');
@@ -385,7 +385,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe("20 - Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que devera ser atualizado a medida que algo for digitado na textarea", () => {
+  describe("20 - Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea", () => {
     it('Deve existir um contador com o ID "counter"', () => {
       cy.get('#counter').should('exist');
     });
@@ -401,7 +401,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe("21 - Ao clicar no botão 'Enviar', o conteúdo do formulário deve ser substituído pelas informações preenchidas", () => {
+  describe("21 - Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas", () => {
     const firstName = 'John';
     const lastName = 'Doe';
     const email = 'johndoe@trybe.com';

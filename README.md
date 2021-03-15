@@ -1,4 +1,4 @@
-### Termos e acordos
+### Termos de acordo
 
 Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
 
@@ -12,50 +12,11 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## Sumário
+# Sumário
 
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-  - [Dicas](#dicas)
-- [Como desenvolver](#como-desenvolver)
-- [Observações técnicas](#observações-técnicas)
-- [ESLint](#eslint)
-- [Requisitos do projeto](#requisitos-do-projeto)
-- [Lista de requisitos obrigatórios](#lista-de-requisitos-obrigatórios)
-  - [1. Crie uma barra verde na parte superior da página](#1-crie-uma-barra-verde-na-parte-superior-da-página)
-  - [2. A barra superior deve conter o logotipo do Trybewarts no canto esquerdo com a classe `trybewarts-header-logo`](#2-a-barra-superior-deve-conter-o-logotipo-do-Trybewarts-no-canto-esquerdo-com-a-classe-trybewarts-header-logo)
-  - [3. A barra superior deve conter um formulário de autenticação no canto direito com um input de login, um de senha e um botão de entrar](#3-a-barra-superior-deve-conter-um-formulário-de-autenticação-no-canto-direito-com-um-input-de-login-um-de-senha-e-um-botão-de-entrar)
-  - [4. Crie um título com o texto "Trybewarts" centralizado dentro do `Header`](#4-crie-um-título-com-o-texto-Trybewarts-centralizado-dentro-do-Header)
-  - [5. Adicione um formulário no corpo da página, posicionado ao lado esquerdo](#5-adicione-um-formulário-no-corpo-da-página-posicionado-ao-lado-esquerdo)
-  - [6. Crie um id para o formulário do requisito 5](#6-Crie-um-id-para-o-formulário-do-requisito-5)
-  - [7. Adicione a logo da Trybewarts no lado direito da página](#7-adicione-a-logo-da-Trybewarts-no-lado-direito-da-página)
-  - [8. No formulário, crie inputs de 'Nome:', 'Sobrenome:' e 'Email'](#8-no-formulário-crie-inputs-de-Nome-Sobrenome-e-Email)
-  - [9. Crie um select 'Casa' contendo quatro options](#9-crie-um-select-Casa-contendo-quatro-options)
-  - [10. Alinhe os campos de 'Nome' e 'Sobrenome' para que fiquem em linha](#10-alinhe-os-campos-de-Nome-e-Sobrenome-para-que-fiquem-em-linha)
-  - [11. Alinhe os campos de 'Email' e 'Casa' para que fiquem em linha](#11-alinhe-os-campos-de-Email-e-Casa-para-que-fiquem-em-linha)
-  - [12. Crie um campo de entrada para qual família a pessoa estudante se identifica](#12-crie-um-campo-de-entrada-para-qual-família-a-pessoa-estudante-se-identifica)
-  - [13. Crie campos de entrada do tipo 'checkbox' contendo seis opções](#13-crie-campos-de-entrada-do-tipo-checkbox-contendo-seis-opções)
-  - [14. Crie campo de entrada para avaliar de 1 a 10 o nível de satisfação com a Trybewarts](#14-crie-campo-de-entrada-para-avaliar-de-1-a-10-o-nível-de-satisfação-com-a-Trybewarts)
-  - [15. Crie uma textarea com o id 'textarea' contendo o número máximo de caracteres igual à 500](#15-crie-uma-textarea-com-o-id-textarea-contendo-o-número-máximo-de-caracteres-igual-à-500)
-  - [16. Crie um campo de entrada do tipo 'checkbox' com o id 'agreement' para validar as informações](#16-crie-um-campo-de-entrada-do-tipo-checkbox-com-o-id-agreement-para-validar-as-informações)
-  - [17. Crie um botão de Enviar para submeter o formulário](#17-crie-um-botão-de-Enviar-para-submeter-o-formulário)
-  - [18. O botão 'Enviar' deverá ser habilitado somente após a checkbox do requisito 17 ser selecionada](#18-o-botão-Enviar-deverá-ser-habilitado-somente-após-a-checkbox-do-requisito-17-ser-selecionada)
-  - [19. Crie um rodapé no final da página](#19-crie-um-rodapé-no-final-da-página)
-  - [Requisito Bônus](#requisito-bônus)
-  - [20. Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea](#20-crie-um-contador-com-o-id-counter-contendo-o-número-de-caracteres-disponíveis-no-textarea-variando-de-500-até-0-que-deverá-ser-atualizado-a-medida-que-algo-for-digitado-na-textarea)
-  - [21. Ao clicar no botão "Enviar", o conteúdo do formulário deve ser substituído pelas informações preenchidas](#21-ao-clicar-no-botão-enviar-o-conteúdo-do-formulário-deve-ser-substituído-pelas-informações-preenchidas)
-- [Avisos finais](#avisos-finais)
+**PH VAI GERAR**
 
----
-
-## Habilidades
+# Habilidades
 
 Neste projeto, verificamos se você é capaz de:
 
@@ -69,17 +30,17 @@ Neste projeto, verificamos se você é capaz de:
 
 ---
 
-## Entregáveis
+# Entregáveis
 
 Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
 
 Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/fundamentals/git) sempre que precisar!
 
-### O que deverá ser desenvolvido
+## O que deverá ser desenvolvido
 
 Neste projeto, você irá desenvolver uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre a escola. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo *verdadeiramente mágico*! Mas não se preocupe se não tiver conhecimento sobre o universo da obra original, pois criamos nossa própria versão da Escola de Bruxaria e você terá todas as informações necessárias para a construção do projeto nesse _readme_!
 
-### Desenvolvimento
+## Desenvolvimento
 
 ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
 
@@ -87,24 +48,20 @@ O seu Pull Request deverá conter os arquivos `index.html`, `style.css` e `scrip
 
 Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
 
-### Data de Entrega
+## Data de entrega
 
-    - Projeto em dupla.
+  - Projeto em dupla.
+  - Serão `X` dias de projeto.
+  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
 
-    - Será um dia de projeto.
-
-    - O projeto tem até a seguinte data: `DD/MM/YYYY - 14:00h`. Para ser entregue a avaliação final.
-
----
-
-## Instruções para entregar seu projeto:
+# Instruções para entregar seu projeto
 
 ### Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-hogwarts-nps-form.git`.
+  * `git clone https://github.com/tryber/sd-0x-project-trybewarts.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-hogwarts-nps-form`
+    * `cd sd-0x-project-trybewarts`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -137,13 +94,13 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
   * Usando o exemplo anterior: `git push -u origin joaozinho-trybewarts-project`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-hogwarts-nps-form/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-trybewarts/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-hogwarts-nps-form/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-trybewarts/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -167,27 +124,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 ---
 
-### Depois de terminar o desenvolvimento (opcional)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
-
-Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
-
-### Dicas
-
-- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/trybewarts`.
-
----
-
-## Como desenvolver
+# Como desenvolver
 
 Você irá desenvolver este projeto em **dupla** e é fundamental que siga as instruções do repositório.
 
@@ -195,11 +132,9 @@ Todos os requisitos tem como base a página a seguir, que representa um formulá
 
 ![Página da Trybewarts](./pagina-principal.png)
 
----
+## Observações técnicas
 
-### Observações técnicas
-
-Algumas coisas devem seguir um padrão pré-estabelecido para que os teste de correção funcionem corretamente.
+Algumas coisas devem seguir um padrão pré-estabelecido para que os testes de correção funcionem corretamente.
 
 ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
 
@@ -239,7 +174,20 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 
 ---
 
-## Requisitos do projeto
+## Linter
+
+  Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `StyleLint`.
+  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
+  e de fácil manutenção! Para rodá-los localmente no projeto, execute os comandos abaixo:
+
+  ```bash
+    npm run lint
+    npm run lint:styles
+  ```
+
+---
+
+# Requisitos do projeto
 
 Caso você faça o download de bibliotecas externas, utilize o diretório libs (a partir da raiz do projeto) para colocar os arquivos (*.css, *.js, etc...) baixados.
 
@@ -252,14 +200,14 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * A classe `header` deve determinar que o elemento é um flex container
   * A classe header deve possuir a propriedade `background-color: rgb(50, 167, 145)`
 
-### 2. A barra superior deve conter o logotipo do Trybewarts no canto esquerdo com a classe `trybewarts-header-logo`
+### 2. Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` no canto esquerdo da barra superior
 
   Pontos importantes:
   * Deve existir um elemento img com a classe `trybewarts-header-logo`
   * O logotipo deve estar alinhado à esquerda dentro da barra verde
   * O atributo `src` do logotipo deve apontar para `images/trybewarts-header-logo.svg`
 
-### 3. A barra superior deve conter um formulário de autenticação no canto direito com um input de login, um de senha e um botão de entrar
+### 3. Acrescente um formulário de autenticação no canto direito da barra superior contendo os inputs de login, de senha e um botão de entrar
 
   Pontos importantes:
   * O formulário deve ter a classe `trybewarts-login`
@@ -376,7 +324,7 @@ Pontos importantes:
   * O botão deve possuir o ID `submit-btn`
   * Deverá conter o texto *'Enviar'*
 
-### 18. O botão 'Enviar' deverá ser habilitado somente após a checkbox do requisito 17 ser selecionada
+### 18. Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 16 ser selecionada
 
   Pontos importantes:
   * O botão deverá estar desabilitado caso a checkbox não esteja selecionada
@@ -399,7 +347,7 @@ Pontos importantes:
   * O contador deverá decrementar a medida que algo for escrito no campo `textarea`
   * O contador deverá incrementar a medida que algo for deletado no campo `textarea`
 
-## 21. Ao clicar no botão 'Enviar', o conteúdo do formulário deve ser substituído pelas informações preenchidas
+## 21. Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas
   Pontos importantes:
   * Todos os campos do formulário devem ser substituídos.
   * Deve haver um campo com o formato "Nome: Alguem Aqui"
@@ -417,6 +365,34 @@ Esses requisitos **não** são verificáveis pelo avaliador automático. A apres
 ### 22. Preencha o arquivo feedback.md . Aproveite o espaço para deixar seus feedbacks sobre o projeto.
 
 ### 23. Realize o desenvolvimento da versão mobile do formulário Trybewarts.
+
+---
+
+## Depois de terminar o desenvolvimento (opcional)
+
+Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
+
+* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
+
+  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
+
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
+
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`.
+
+Caso tenha alguma dúvida, [aqui tem um vídeo explicativo](https://vimeo.com/362189205).
+
+### Dicas
+
+- Para colocar sua página no [GitHub Pages](https://pages.github.com/), não é necessário remover o conteúdo que já está lá, você pode apenas adicionar essa nova página. Para isso, todo o conteúdo desse projeto deve ser colocado em uma pasta `/projetos/trybewarts`.
+
+---
+
+## Revisando um pull request
+
+À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
+
+Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
 
 ---
 
