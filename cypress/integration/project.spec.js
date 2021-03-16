@@ -199,8 +199,8 @@ describe('Trybewarts', () => {
       cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should('exist');
     });
 
-    it('O atributo `src` do logotipo deve apontar para `images/trybewarts-logo.png`', () => {
-      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should('have.attr', 'src').should('equal', './images/Trybewarts-colored.svg');
+    it('O atributo `src` do logotipo deve apontar para `images/Trybewarts-colored.svg`', () => {
+      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should('have.attr', 'src').should('equal', 'images/Trybewarts-colored.svg');
     });
   });
 
@@ -240,7 +240,7 @@ describe('Trybewarts', () => {
     it('Os campos de Nome e Sobrenome devem estar lado a lado', () => {
       cy.get(USER_LASTNAME_INPUT_SELECTOR)
         .should('have.css', 'flex-direction', 'row');
-        cy.get(USER_LASTNAME_INPUT_SELECTOR)
+      cy.get(USER_LASTNAME_INPUT_SELECTOR)
         .should('have.css', 'flex-direction', 'row');
     });
   });
@@ -331,8 +331,8 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe("15 - Crie uma textarea com o id 'textarea' contendo o número máximo de caracteres igual à 500", () => {
-    it('Um elemento com o id textarea e o texto "Deixe seu comentário:" deverá ser criado" ', () => {
+  describe("15 - Crie uma textarea com o id 'textarea' e uma label com a classe 'textarea' contendo o número máximo de caracteres igual à 500", () => {
+    it('Uma label com a classe textarea e o texto "Deixe seu comentário:" deverá ser criado" ', () => {
       cy.get('.textarea').contains(LABEL_TEXTAREA);
     });
 

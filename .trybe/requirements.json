@@ -57,7 +57,7 @@
       "bonus": false
     },
     { 
-      "description": "15 - Crie uma textarea com o id 'textarea' contendo o número máximo de caracteres igual à 500",
+      "description": "15 - Crie uma textarea com o id 'textarea' e uma label com a classe 'textarea' contendo o número máximo de caracteres igual à 500",
       "bonus": false
     },
     { 
