@@ -132,7 +132,7 @@ describe('Trybewarts', () => {
     it('Ao clicar no botão com login ou senha válidos, emite um alerta contendo o texto "Olá, Tryber!"', () => {
       const stub = cy.stub()
       cy.on('window:alert', stub);
-      cy.get(`${TRYBEWARTS_LOGIN_FORM_SELECTOR} input:nth-child(1)`).type('tryber@betrybe.com');
+      cy.get(`${TRYBEWARTS_LOGIN_FORM_SELECTOR} input:nth-child(1)`).type('tryber@teste.com');
       cy.get(`${TRYBEWARTS_LOGIN_FORM_SELECTOR} input:nth-child(2)`).type('123456');
       cy.get(`${TRYBEWARTS_LOGIN_FORM_SELECTOR} button`).click()
         .then(() => {
