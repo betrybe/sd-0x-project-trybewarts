@@ -335,9 +335,11 @@ describe('Trybewarts', () => {
       cy.get('.textarea').contains(LABEL_TEXTAREA);
     });
 
-    it('O campo `textarea` deverá ter o máximo de 500 caracteres', () => {
+    it('O campo textarea deverá ter o máximo de 500 caracteres', () => {
       cy.get('textarea').type('text'.repeat(200));
-      cy.get('textarea').should('have.length', 500)
+      cy.get('textarea').invoke('val').should((value) => {
+        expect(value).to.match(/^[a-z]{500}$/)
+      });
     });
   });
 
