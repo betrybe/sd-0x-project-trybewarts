@@ -537,9 +537,16 @@ Pontos importantes:
 
 Esses requisitos **não** são verificáveis pelo avaliador automático. A apresentação **(opcional)** do requisito 22 será realizada durante o fechamento do dia seguinte ao final do projeto
 
-### 22. Preencha o arquivo feedback.md . Aproveite o espaço para deixar seus feedbacks sobre o projeto.
 
-### 23. Realize o desenvolvimento da versão mobile do formulário Trybewarts.
+### 22. Realize o desenvolvimento da versão mobile do formulário Trybewarts.
+
+  - Utilize media queries para inserir breakpoints para telas de diferentes tamanhos.
+  - Leve em conta a largura da tela e a experiência do usuário ao reorganizar o layout para dispositivos menores.
+  - Tente inserir um 'menu hambúrguer' na barra superior para lidar com o login usando javascript. Se não conseguir, tente criar uma página separada de login, uma prática muito comum.
+  - Deixe sua criatividade fluir! Preferimos não avaliar esse requisito justamente pra que você tenha liberdade para executar a responsividade da maneira que você achar mais agradável!
+  ### 23. Preencha o arquivo feedback.md . Aproveite o espaço para deixar seus feedbacks sobre o projeto.
+
+  Utilizem o arquivo feedback.md para deixar comentários e sugestõs sobre o projeto! Para nós, é muito importante saber se vocês tiveram uma boa experiência e se foi praticar seus conhecimentos com o Trybewarts!
 
 ---
 
