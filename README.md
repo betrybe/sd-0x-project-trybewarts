@@ -183,7 +183,7 @@ Algumas coisas devem seguir um padrão pré-estabelecido para que os testes de c
 
 ⚠️ Leia-os atentamente e siga à risca o que for pedido. Em particular, **atente-se para os nomes de _ids_ que alguns elementos de seu projeto devem possuir**. ⚠️
 
-⚠ **Alguns requisitos pedem para utilizar flexbox. Tenha atenção no que é solicitado caso vá usar algum framework CSS para que os requisitos sejam atendidos.** ⚠
+⚠ **Alguns requisitos pedem para utilizar Flexbox. Tenha atenção no que é solicitado caso vá usar algum framework CSS para que os requisitos sejam atendidos.** ⚠
 
 O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
 
