@@ -199,8 +199,8 @@ describe('Trybewarts', () => {
       cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should('exist');
     });
 
-    it('O atributo `src` do logotipo deve apontar para `images/Trybewarts-colored.svg`', () => {
-      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should('have.attr', 'src').should('equal', 'images/Trybewarts-colored.svg');
+    it('O atributo `src` do logotipo deve apontar para `images/trybewarts-colored.svg`', () => {
+      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR).should('have.attr', 'src').should('equal', 'images/trybewarts-colored.svg');
     });
   });
 

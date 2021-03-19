@@ -334,13 +334,13 @@ Pontos importantes:
 
   Pontos importantes:
   * Deve possuir o id ``trybewarts-forms-logo``
-  * O atributo `src` do logotipo deve apontar para ``./images/Trybewarts-colored.svg``
+  * O atributo `src` do logotipo deve apontar para ``./images/trybewarts-colored.svg``
   * A imagem deve possuir um `height` de `500px`
 
   #### O que será verificado:
 
   - Existe um elemento `img` com o id `trybewarts-forms-logo`
-  - O elemento possui o atributo `src` apontando para `images/Trybewarts-colored.svg`
+  - O elemento possui o atributo `src` apontando para `images/trybewarts-colored.svg`
 
 ### 8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email'
 
