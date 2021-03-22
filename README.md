@@ -536,7 +536,7 @@ Pontos importantes:
 
 ## Lista de requisitos não avaliativos:
 
-Esses requisitos **não** são verificáveis pelo avaliador automático. A apresentação **(opcional)** do requisito 22 será realizada durante o fechamento do dia seguinte ao final do projeto
+Esses requisitos **não** são verificáveis pelo avaliador automático.
 
 ### 22. Preencha o arquivo feedback.md . Aproveite o espaço para deixar seus feedbacks sobre o projeto.
 
