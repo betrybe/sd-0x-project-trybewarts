@@ -14,7 +14,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 # Sumário
 
-- [Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:](#boas-vindas-ao-repositório-do-projeto-trybewarts-wizarding-school-mage)
 - [Sumário](#sumário)
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
