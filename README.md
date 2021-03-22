@@ -214,20 +214,19 @@ O não cumprimento de um requisito, total ou parcialmente, impactará em sua ava
 ---
 
 ## ESLint
+
+Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `StyleLint`.
+Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
+e de fácil manutenção! Para rodá-los localmente no projeto, execute os comandos abaixo:
+
+```bash
+  npm run lint
+  npm run lint:styles
+```
+
+Em caso de dúvidas, confira o material do course sobre [ESLint e StyleLint](https://app.betrybe.com/course/real-life-engineer/eslint).
+
 ⚠️ Lembre-se que o seu projeto só será avaliado se estiver passando pelos _checks_ do **ESLint**.
-
----
-
-## Linter
-
-  Para garantir a qualidade do código, vamos utilizar neste projeto os linters `ESLint` e `StyleLint`.
-  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-  e de fácil manutenção! Para rodá-los localmente no projeto, execute os comandos abaixo:
-
-  ```bash
-    npm run lint
-    npm run lint:styles
-  ```
 
 ---
 
