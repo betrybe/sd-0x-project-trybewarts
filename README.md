@@ -37,7 +37,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [5. Adicione um formulário no corpo da página, posicionado ao lado esquerdo](#5-adicione-um-formulário-no-corpo-da-página-posicionado-ao-lado-esquerdo)
     - [6. Crie um id para o formulário do requisito 5](#6-crie-um-id-para-o-formulário-do-requisito-5)
     - [7. Adicione a logo da Trybewarts no lado direito da página](#7-adicione-a-logo-da-trybewarts-no-lado-direito-da-página)
-    - [8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email'](#8acrescente-no-formulário-os-inputs-de-nome-sobrenome-e-email)
+    - [8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email:'](#8acrescente-no-formulário-os-inputs-de-nome-sobrenome-e-email)
     - [9. Crie um select 'Casa' contendo quatro options](#9-crie-um-select-casa-contendo-quatro-options)
     - [10. Alinhe os campos de 'Nome' e 'Sobrenome' para que fiquem em linha](#10-alinhe-os-campos-de-nome-e-sobrenome-para-que-fiquem-em-linha)
     - [11. Alinhe os campos de 'Email' e 'Casa' para que fiquem em linha](#11-alinhe-os-campos-de-email-e-casa-para-que-fiquem-em-linha)
@@ -342,11 +342,11 @@ Pontos importantes:
   - Existe um elemento `img` com o id `trybewarts-forms-logo`
   - O elemento possui o atributo `src` apontando para `images/trybewarts-colored.svg`
 
-### 8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email'
+### 8.Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email:'
 
   Pontos importantes:
   * Inputs de *'Nome'*, *'Sobrenome'* e *'Email'* deverão ser criados
-  *Os inputs devem possuir os ids 'input-name', 'input-lastname' e 'input-email'
+  * Os inputs devem possuir os ids 'input-name', 'input-lastname' e 'input-email'
   * Os inputs deverão conter um placeholder com *'Nome'*, *'Sobrenome'* e *'Email'* em seus respectivos campos
 
   #### O que será verificado:
