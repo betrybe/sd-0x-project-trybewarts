@@ -1,2 +1,4 @@
 **/*.spec.js
 /cypress
+/node_modules/
+/libs/
