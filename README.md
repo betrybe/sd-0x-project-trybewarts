@@ -431,6 +431,7 @@ Pontos importantes:
   Pontos importantes:
   * Um elemento com o id `label-rate` e o texto *"Como você avalia a Trybewarts?"* deverá ser criado
   * O campo deve ser formado por dez radio buttons, contendo as opções de 1 a 10
+  * Os radio buttons devem ter o atributo `value` com o valor de suas opções de 1 a 10.
   * Os radio buttons devem ter o atributo `name` com o valor *"rate"*
   * Posicione os radio buttons para ficar lado a lado
   * Posicione os radio buttons à direita da label
