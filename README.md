@@ -380,6 +380,7 @@ Pontos importantes:
   Pontos importantes:
   * Os campos de *'Email'* e *'Casa'* devem estar abaixo dos de *'Nome'* e *'Sobrenome'*
   * Os campos de *'Email'* e *'Casa'* devem estar lado a lado
+  * O campo *'Casa'* deve possuir o `id="house"`
 
   #### O que será verificado:
 
@@ -410,6 +411,7 @@ Pontos importantes:
   * Um elemento com o id `label-content` e o texto *"Qual conteúdo você está com mais vontade de aprender?"* deverá ser criado
   * O campo deve ser formado por seis checkbox com as seguintes opções (seguindo esta ordem): *HoFs*, *Jest*, *Promises*, *React*, *SQL* e *Python*
   * Os valores (`value`) dos campos são, respectivamente: *HoFs*, *Jest*, *Promises*, *React*, *SQL*, *Python*
+  * As classes (`class`) dos campos devem ser `subject`
   * Posicione as checkbox para ficar lado a lado
   * Posicione as checkbox a abaixo do label
 
@@ -437,6 +439,7 @@ Pontos importantes:
 
   - Existe um elemento `label` com o id `label-rate` que possui um conteúdo de texto `Como você avalia a Trybewarts?`
   - Existem 10 `radio-buttons` com o atributo `name="rate"`
+  - Existem 10 `radio-buttons` contendo o atributo `value` de 1 a 10  
   - Os `radio-buttons` estão à direita do texto da label
 
 ### 15. Crie uma textarea com o id 'textarea' e uma label com a classe 'textarea' contendo o número máximo de caracteres igual à 500
@@ -447,7 +450,7 @@ Pontos importantes:
 
   #### O que será verificado:
 
-  - Existe uma label com o id `textarea` e o texto `Deixe seu comentário:`
+  - Existe uma `label` com a classe `textarea` e o texto `Deixe seu comentário:`
   - O elemento `textarea` possui um limite de 500 caracteres
 
 ### 16. Crie um campo de entrada do tipo 'checkbox' com o id 'agreement' para validar as informações
@@ -503,10 +506,12 @@ Pontos importantes:
   * O contador inicialmente deve possuir o valor `500`
   * O contador deverá decrementar a medida que algo for escrito no campo `textarea`
   * O contador deverá incrementar a medida que algo for deletado no campo `textarea`
+  * O elemento `textarea` deverá possuir `id="textarea"`
 
   #### O que será verificado:
 
   - Existe um elemento com o id `counter`
+  - Existe um elemento com o id `textarea`
   - O preenchimento do campo de `textarea` altera o número apresentado no elemento `#counter`
 
 ### 21. Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas
@@ -522,6 +527,7 @@ Pontos importantes:
 
   #### O que será verificado:
 
+  - Os `inputs` tipo `checkbox` referentes à lista de conteúdo possuem `class="subject"`
   - Ao clicar no botão de enviar, existe um texto no formato `Nome: -Nome- -Sobrenome-`
   - Ao clicar no botão de enviar, existe um texto no formato `Email: -Email-`
   - Ao clicar no botão de enviar, existe um texto no formato `Casa: -Casa-`
