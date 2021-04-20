@@ -100,7 +100,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 ### Antes de começar a desenvolver:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-trybewarts.git`.
+  * `git clone git@github.com:betrybe/sd-0x-project-trybewarts.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-0x-project-trybewarts`
 
@@ -316,9 +316,7 @@ Pontos importantes:
 
 ### 6. Faça com que o formulário do requisito 5 seja um container flex com o eixo principal vertical
 
-  Pontos importantes:
-  * Esse id deverá se chamar `evaluation-form`
-  * Esse id deverá possuir a propriedade `display: flex`
+  Ponto importante:
   * Alinhe o eixo principal dessa classe para ser o eixo vertical
 
   #### O que será verificado:
@@ -354,13 +352,15 @@ Pontos importantes:
 ### 9. Crie um select 'Casa' contendo quatro options
 
   Pontos importantes:
+  * Deverá  o select conter o id ``house``
   * Deverá conter a opção com text e value `Gitnória` e com o id ``gitnoria-house``
   * Deverá conter a opção com text e value `Reactpuff`e com o id ``reactpuff-house``
   * Deverá conter a opção com text e value `Corvinode`e com o id ``corvinode-house``
   * Deverá conter a opção com text e value `Pytherina`e com o id ``pytherina-house``
 
   #### O que será verificado:
-
+  
+  - Existe um elemento `select` com o id `house`
   - Existe um elemento `option` com o id `gitnoria-house`
   - Existe um elemento `option` com o id `reactpuff-house`
   - Existe um elemento `option` com o id `corvinode-house`
