@@ -269,7 +269,7 @@ Caso você faça o download de bibliotecas externas, utilize o diretório libs (
   * Existem dois inputs e um botão dentro do formulário
   * Os inputs deverão conter placeholders com as palavras *'Login'* e *'Senha'*,
   * O formulário deve ser um flex container
-  * O formulário deve aceitar como padrão o login 'tryber@betrybe.com' e a senha '123456'
+  * O formulário deve aceitar como padrão o login 'tryber@teste.com' e a senha '123456'
     - Caso o login ou a senha sejam **diferentes** do padrão, ao clicar no botão deverá ser emitido um alerta contendo o texto *'Login ou senha inválidos.'*
     - Caso o login ou a senha sejam **as mesmas** definidas por padrão, ao clicar no botão deverá ser emitido um alerta contendo o texto *'Olá, Tryber!'*
 
@@ -314,7 +314,7 @@ Pontos importantes:
   - O elemento `main` e o `form` possuem a propriedade CSS `display: flex`
   - O elemento `form` possui a propriedade CSS `width: 675px`
 
-### 6. Crie um id para o formulário do requisito 5
+### 6. Faça com que o formulário do requisito 5 seja um container flex com o eixo principal vertical
 
   Pontos importantes:
   * Esse id deverá se chamar `evaluation-form`
@@ -331,7 +331,7 @@ Pontos importantes:
 
   Pontos importantes:
   * Deve possuir o id ``trybewarts-forms-logo``
-  * O atributo `src` do logotipo deve apontar para ``./images/trybewarts-colored.svg``
+  * O atributo `src` do logotipo deve apontar para ``images/trybewarts-colored.svg``
   * A imagem deve possuir um `height` de `500px`
 
   #### O que será verificado:
@@ -354,10 +354,10 @@ Pontos importantes:
 ### 9. Crie um select 'Casa' contendo quatro options
 
   Pontos importantes:
-  * Deverá conter a opção `Gitnória` e um id ``gitnoria-house``
-  * Deverá conter a opção `Reactpuff`e um id ``reactpuff-house``
-  * Deverá conter a opção `Corvinode`e um id ``corvinode-house``
-  * Deverá conter a opção `Pytherina`e um id ``pytherina-house``
+  * Deverá conter a opção com text e value `Gitnória` e com o id ``gitnoria-house``
+  * Deverá conter a opção com text e value `Reactpuff`e com o id ``reactpuff-house``
+  * Deverá conter a opção com text e value `Corvinode`e com o id ``corvinode-house``
+  * Deverá conter a opção com text e value `Pytherina`e com o id ``pytherina-house``
 
   #### O que será verificado:
 
@@ -409,7 +409,7 @@ Pontos importantes:
   Pontos importantes:
   * Um elemento com o id `label-content` e o texto *"Qual conteúdo você está com mais vontade de aprender?"* deverá ser criado
   * O campo deve ser formado por seis checkbox com as seguintes opções (seguindo esta ordem): *HoFs*, *Jest*, *Promises*, *React*, *SQL* e *Python*
-  * Os valores (`value`) dos campos são, respectivamente: *Higher Order Functions*, *Jest*, *Promises*, *React*, *SQL*, *Python*
+  * Os valores (`value`) dos campos são, respectivamente: *HoFs*, *Jest*, *Promises*, *React*, *SQL*, *Python*
   * Posicione as checkbox para ficar lado a lado
   * Posicione as checkbox a abaixo do label
 
