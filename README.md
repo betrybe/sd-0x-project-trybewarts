@@ -580,9 +580,10 @@ Esses requisitos **não** são verificáveis pelo avaliador automático.
 
 A outra pessoa integrante da dupla deve criar uma nova `branch` a partir da `branch` de trabalho _(a primeira branch criada pela equipe)_.
 Exemplo: 
-`git branch`  para ter certeza de que está na branch de trabalho,
-caso não esteja use `git checkout joaozinho-trybewarts-project`  para acessá-la.
-`git checkout -b novabranch-trybewarts-project`
+1. Use `git branch` para ter certeza de que está na branch de trabalho;
+2. Caso não esteja use `git checkout joaozinho-trybewarts-project`  para trocar de `branch`;
+3. User `git checkout -b mariazinha-trybewarts-project` para criar uma nova branch a partir da branch anterior (`joaozinnho-trybewarts-project`);
+
 
 #### Garanta que o último commit da branch é de autoria da pessoa dona de cada branch. Novamente pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.
 
