@@ -588,7 +588,9 @@ Exemplo:
 #### Garanta que o último commit da branch é de autoria da pessoa dona de cada branch. Novamente pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.
 
 1. Adicione sua branch com o novo `commit` ao repositório remoto
-   * Usando o exemplo anterior: `git push -u origin novabranch-trybewarts-project`
+
+   * Usando o exemplo anterior: `git push -u origin mariazinha-trybewarts-project`
+   
 2. Crie um novo `Pull Request` (PR)
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-trybewarts/pulls)
   * Clique no botão verde _"New pull request"_
