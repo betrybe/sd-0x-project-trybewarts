@@ -99,6 +99,9 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 ### Antes de começar a desenvolver:
 
+#### Esse projeto tem um fluxo um pouco diferente dos outros. Os passos 1 a 6 devem ser feitos por uma pessoa da equipe (a que vai criar a branch de trabalho). A/s outra/s pessoa/s devem fazer apenas o passo 1 e depois mudar para a branch criada pela primeira pessoa.
+  Exemplo:  `git checkout joaozinho-trybewarts-project`
+
 1. Clone o repositório
   * `git clone git@github.com:betrybe/sd-0x-project-trybewarts.git`.
   * Entre na pasta do repositório que você acabou de clonar:
@@ -571,7 +574,33 @@ Esses requisitos **não** são verificáveis pelo avaliador automático.
 
 ---
 
-# Depois de terminar o desenvolvimento (opcional)
+# Depois de terminar o desenvolvimento
+
+#### A pessoa dona da branch deve garantir que o último commit nessa branch é seu. Pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.
+
+Cada pessoa restante da equipe deve criar uma nova branch a partir da branch de trabalho (a primeira branch criada pela equipe).
+Exemplo: 
+`git branch`  para ter certeza de que está na branch de trabalho,
+caso não esteja use `git checkout joaozinho-trybewarts-project`  para acessá-la.
+`git checkout -b novabranch-trybewarts-project`
+
+#### Garanta que o último commit da branch é de autoria da pessoa dona de cada branch. Novamente pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.
+
+1. Adicione sua branch com o novo `commit` ao repositório remoto
+   * Usando o exemplo anterior: `git push -u origin novabranch-trybewarts-project`
+2. Crie um novo `Pull Request` (PR)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-trybewarts/pulls)
+  * Clique no botão verde _"New pull request"_
+  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
+  * Clique no botão verde _"Create pull request"_
+  * Adicione uma descrição para o _Pull Request_, um título claro que o identifique, e clique no botão verde _"Create pull request"_
+  * **Não se preocupe em preencher mais nada por enquanto!**
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-trybewarts/pulls) e confira que o seu _Pull Request_ está criado
+ 
+#### Para o seu projeto ser avaliado você deve se assegurar que o último commit na branch é da pessoa dona da branch.
+
+
+## (opcional)
 
 Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
 
