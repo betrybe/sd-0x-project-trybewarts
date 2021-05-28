@@ -603,7 +603,9 @@ Exemplo:
 #### ⚠️ Para o seu projeto ser avaliado você deve se assegurar que o último commit na branch é da pessoa dona da branch.
 
 
-## (opcional)
+---
+
+## Code Review (opcional)
 
 Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
 
