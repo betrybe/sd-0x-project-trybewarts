@@ -578,7 +578,7 @@ Esses requisitos **não** são verificáveis pelo avaliador automático.
 
 #### A pessoa dona da branch deve garantir que o último commit nessa branch é seu. Pode ser feita alguma alteração que não afete o cumprimento dos requisitos para realizar o commit.
 
-Cada pessoa restante da equipe deve criar uma nova branch a partir da branch de trabalho (a primeira branch criada pela equipe).
+A outra pessoa integrante da dupla deve criar uma nova `branch` a partir da `branch` de trabalho _(a primeira branch criada pela equipe)_.
 Exemplo: 
 `git branch`  para ter certeza de que está na branch de trabalho,
 caso não esteja use `git checkout joaozinho-trybewarts-project`  para acessá-la.
