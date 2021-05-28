@@ -99,7 +99,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 ### Antes de começar a desenvolver:
 
-#### Esse projeto tem um fluxo um pouco diferente dos outros. Os passos 1 a 6 devem ser feitos por uma pessoa da equipe (a que vai criar a branch de trabalho). A/s outra/s pessoa/s devem fazer apenas o passo 1 e depois mudar para a branch criada pela primeira pessoa.
+#### Esse projeto tem um fluxo um pouco diferente dos outros. Os passos 1 a 6 devem ser feitos por uma pessoa da dupla (a que vai criar a branch de trabalho). A outra pessoa deve fazer apenas o passo 1 e depois mudar para a branch criada pela primeira pessoa.
   Exemplo:  `git checkout joaozinho-trybewarts-project`
 
 1. Clone o repositório
