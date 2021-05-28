@@ -600,7 +600,7 @@ Exemplo:
   * **Não se preocupe em preencher mais nada por enquanto!**
   * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-trybewarts/pulls) e confira que o seu _Pull Request_ está criado
  
-#### Para o seu projeto ser avaliado você deve se assegurar que o último commit na branch é da pessoa dona da branch.
+#### ⚠️ Para o seu projeto ser avaliado você deve se assegurar que o último commit na branch é da pessoa dona da branch.
 
 
 ## (opcional)
