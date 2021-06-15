@@ -34,7 +34,11 @@
         "8ecad6db-7b0a-477b-be18-163504eb8e93",
         "ab1155b6-a3b5-475e-beaf-4ce9179c8bcc",
         "e3d12e45-3f14-4a9f-96fd-292fa0f49022",
-        "bcb9581a-a21c-4efe-bd82-2a4422b2409a"
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "8f2bd30e-4e3a-4ef1-b24a-e955fdb97e97",
+        "e30e36ef-e8a3-48eb-b7f2-12bce792e4f9",
+        "a80d18f6-c2db-497d-86ee-32f3eb84d899"
       ]
     },
     {
@@ -139,7 +143,11 @@
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
         "0e6b514c-2885-42d4-aaa4-e659d2b67743",
         "06e200ef-2519-4c3e-943b-74d0743d7dbc",
-        "dff815a7-42ec-4f41-9175-0d22afc9e28a"
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "8f2bd30e-4e3a-4ef1-b24a-e955fdb97e97",
+        "e30e36ef-e8a3-48eb-b7f2-12bce792e4f9",
+        "a80d18f6-c2db-497d-86ee-32f3eb84d899"
       ]
     },
     {
@@ -186,7 +194,11 @@
       "description": "19 - Crie um rodapé no final da página",
       "bonus": false,
       "skill_ids": [
-        "632e1695-47ad-4fb1-b1c2-382af5f43a6f"
+        "632e1695-47ad-4fb1-b1c2-382af5f43a6f",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "8f2bd30e-4e3a-4ef1-b24a-e955fdb97e97",
+        "e30e36ef-e8a3-48eb-b7f2-12bce792e4f9",
+        "a80d18f6-c2db-497d-86ee-32f3eb84d899"
       ]
     },
     {
@@ -200,7 +212,19 @@
         "b036e9e4-b6fa-44fb-ae82-a30f8ce4fd00",
         "135bf685-05f2-44df-9376-5bbc7c61472e",
         "2ab799a2-4de6-464a-82b3-c0fd06d03e01",
-        "ebfb806c-1567-47d4-904c-3480d5b1a166"
+        "ebfb806c-1567-47d4-904c-3480d5b1a166",
+        "f6eb9c8c-51bc-41c3-a2aa-529ad82d3dbf",
+        "07f41718-b618-4c44-ab84-b529c77cd036",
+        "a3cc1fb7-4236-459a-b05f-0e59f364f062",
+        "8e7a716f-a2a4-4640-8654-c19b7e7e4506",
+        "2e77a1fc-5e9d-4d05-8acd-56a6ff028501",
+        "1a98adcd-1669-4088-8b16-c7b00ecd1ec8",
+        "0501f8ef-d192-4207-a521-c2f32b2dd2fa",
+        "58b4a2db-3848-485b-8ff7-a314369a2b20",
+        "95e4ebe9-2181-47be-b602-6255b7270670",
+        "e5755aa9-89b9-475c-94f5-b557f5829e59",
+        "efeef6c0-0904-432d-b471-2af8a00e6bc9",
+        "7570d9d4-4dd4-4ef2-bb14-8160a9f0ce2c"
       ]
     },
     {
@@ -214,7 +238,19 @@
         "b036e9e4-b6fa-44fb-ae82-a30f8ce4fd00",
         "135bf685-05f2-44df-9376-5bbc7c61472e",
         "2ab799a2-4de6-464a-82b3-c0fd06d03e01",
-        "ebfb806c-1567-47d4-904c-3480d5b1a166"
+        "ebfb806c-1567-47d4-904c-3480d5b1a166",
+        "f6eb9c8c-51bc-41c3-a2aa-529ad82d3dbf",
+        "07f41718-b618-4c44-ab84-b529c77cd036",
+        "a3cc1fb7-4236-459a-b05f-0e59f364f062",
+        "8e7a716f-a2a4-4640-8654-c19b7e7e4506",
+        "2e77a1fc-5e9d-4d05-8acd-56a6ff028501",
+        "1a98adcd-1669-4088-8b16-c7b00ecd1ec8",
+        "0501f8ef-d192-4207-a521-c2f32b2dd2fa",
+        "58b4a2db-3848-485b-8ff7-a314369a2b20",
+        "95e4ebe9-2181-47be-b602-6255b7270670",
+        "e5755aa9-89b9-475c-94f5-b557f5829e59",
+        "efeef6c0-0904-432d-b471-2af8a00e6bc9",
+        "7570d9d4-4dd4-4ef2-bb14-8160a9f0ce2c"
       ]
     }
   ]
