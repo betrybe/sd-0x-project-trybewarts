@@ -121,7 +121,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
 
 4. Crie na raiz do projeto os arquivos que você precisará desenvolver:
   * Verifique que você está na raiz do projeto
-    * Exemplo: `pwd` -> o retorno vai ser algo tipo _/Users/joao/code/**sd-0x-project-trybewarts**_
+    * Exemplo: `pwd` -> o retorno vai ser algo como _/Users/joao/code/**sd-0x-project-trybewarts**_
   * Crie os arquivos index.html, style.css e script.js
     * Exemplo: `touch index.html style.css script.js`
 
@@ -135,7 +135,7 @@ Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, pr
   * Faça o `commit` inicial
       * Exemplo:
         * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+        * `git status` (deve aparecer uma mensagem como _nothing to commit_ )
 
 6. Adicione a sua branch com o novo `commit` ao repositório remoto
   * Usando o exemplo anterior: `git push -u origin joao-silva-trybewarts`
