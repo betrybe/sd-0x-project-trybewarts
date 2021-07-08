@@ -318,7 +318,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Ao clicar no botão de login dispara um alert com o texto **"Email ou senha inválidos"**, no caso de erro de preenchimento dos dados
 * Ao clicar no botão de login dispara um alert com o texto **"Olá, Tryber!"**, no caso de preenchimento correto dos dados.
 
-### 4. Crie um título com o texto 'Trybewarts' centralizado dentro do 'Header'
+### 4. Crie um título com o texto `Trybewarts` centralizado dentro do `Header`
 
 * Deve existir um elemento `<h1>` com o **id** `trybewarts-header-title` e com o texto **"Trybewarts"**
 * O título deverá estar centralizado na barra verde
@@ -377,7 +377,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Existe um input com o id **input-lastname** e placeholder **Sobrenome**
 * Existe um input com o id **input-email** e placeholder **Email**
 
-### 9. Acrescente ao formulário um select com o id `house` contendo as opções "Gitnória", "Reactpuff", "Corvinode" e "Pytherina"
+### 9. Acrescente ao formulário um select com o id `house` contendo as opções `Gitnória`, `Reactpuff`, `Corvinode` e `Pytherina`
 
 * Deverá conter a opção com `text` e `value` igual a `Gitnória` e com o `id` igual a `gitnoria-house`
 * Deverá conter a opção com `text` e `value` igual a `Reactpuff` e com o `id` igual a `reactpuff-house`
@@ -392,7 +392,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Existe um elemento `option` com `text` e `value` igual a `Corvinode` e com o `id` igual a `corvinode-house`
 * Existe um elemento `option` com `text` e `value` igual a `Pytherina` e com o `id` igual a `pytherina-house`
 
-### 10. Alinhe os campos de `Nome` e `Sobrenome` para que fiquem em linha
+### 10. Posicione os campos de `Nome` e `Sobrenome` para que fiquem em linha
 
 * Os campos de `Nome` e `Sobrenome` devem estar lado a lado
 
@@ -400,7 +400,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 
 * O campo de `Sobrenome` está à direita do campo de `Nome`
 
-### 11. Alinhe os campos de `Email` e `Casa` para que fiquem em linha
+### 11. Posicione os campos de `Email` e `Casa` para que fiquem em linha
 
 * Os campos de `Email` e `Casa` devem estar lado a lado
 
@@ -426,7 +426,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Os inputs do tipo `radio` estão um abaixo do outro na sequência **Frontend**, **Backend** e **Fullstack**
 * Os inputs do tipo `radio` estão abaixo do texto da label
 
-### 13. Crie campos de entrada do tipo 'checkbox' contendo seis opções
+### 13. Crie campos de entrada do tipo `checkbox` contendo seis opções
 
 * Crie um elemento com o `id` **label-content** e o texto **"Qual conteúdo você está com mais vontade de aprender?"**
 * Crie um input do tipo `checkbox` com o value igual a **HoFs**
@@ -464,7 +464,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Existem 10 `radio-buttons` contendo o atributo `value` de 1 a 10  
 * Os `radio-buttons` estão à direita do texto da label
 
-### 15. Crie uma textarea com o id 'textarea' e uma label com a classe 'textarea' contendo o número máximo de caracteres igual à 500
+### 15. Crie uma textarea com o id `textarea` e uma label com a classe `textarea` contendo o número máximo de caracteres igual à 500
 
 * Uma label com a classe `textarea` e o texto **"Deixe seu comentário:"** deverá ser criado
 * O campo `textarea` deverá ter o máximo de 500 caracteres
@@ -474,7 +474,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Existe uma `label` com a classe `textarea` e o texto `Deixe seu comentário:`
 * O elemento `textarea` possui um limite de 500 caracteres
 
-### 16. Crie um campo de entrada do tipo 'checkbox' com o id 'agreement' para validar as informações
+### 16. Crie um campo de entrada do tipo `checkbox` com o id `agreement` para validar as informações
 
 * Um rótulo (label) com o id `label-infos` e o texto **"Você concorda com o uso das informações acima?"** deverá ser criado
 * O campo deve ser formado por um checkbox
@@ -496,7 +496,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 
 * Existe um botão do tipo `submit` com o id `submit-btn` e o texto `Enviar`
 
-### 18. Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 16 ser selecionada
+### 18. Faça com que o botão `Enviar` seja habilitado somente após a checkbox do requisito 16 ser selecionada
 
 * O botão deverá estar desabilitado caso a checkbox não esteja selecionada
 * O botão deverá ser habilitado caso a checkbox seja selecionada
@@ -516,7 +516,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 
 ## Lista de requisitos bônus:
 
-### 20. Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea
+### 20. Crie um contador com o ID `counter` contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea
 
 * O contador deverá possuir o ID `counter`
 * O contador inicialmente deve possuir o valor `500`
@@ -530,7 +530,7 @@ Você também pode assistir a [este](https://vimeo.com/539240375/a116a166b9) ví
 * Existe um elemento com o id `textarea`
 * O preenchimento do campo de `textarea` altera o número apresentado no elemento `#counter`
 
-### 21. Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas
+### 21. Faça com que ao clicar no botão `Enviar`, o conteúdo do formulário seja substituído pelas informações preenchidas
 
 * Todos os campos do formulário devem ser substituídos.
 * Deve haver um campo com o formato "Nome: Alguem Aqui"

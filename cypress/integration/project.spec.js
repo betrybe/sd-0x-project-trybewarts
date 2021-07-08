@@ -100,7 +100,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('4 - Crie um título com o texto "Trybewarts" centralizado dentro do "Header"', () => {
+  describe('4 - Crie um título com o texto `Trybewarts` centralizado dentro do `Header`', () => {
     it('Existe um elemento h1 com o id "trybewarts-header-title" e texto "Trybewarts', () => {
       cy.get(TRYBEWARTS_HEADER_TITLE).should('exist')
         .and('have.text', 'Trybewarts');
@@ -160,7 +160,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('8 - Acrescente ao formulário os inputs de "Nome", "Sobrenome" e "Email"', () => {
+  describe('8 - Acrescente ao formulário com id `evaluation-form` os inputs de `nome, sobrenome e email`', () => {
     const INPUTS = [
       { placeholder: 'Nome', id: 'input-name' },
       { placeholder: 'Sobrenome', id: 'input-lastname' },
@@ -175,7 +175,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('9 - Acrescente ao formulário um select com o id "houses" contendo as opções "Gitnória", "Reactpuff", "Corvinode" e "Pytherina"', () => {
+  describe('9 - Acrescente ao formulário um select com o id `house` contendo as opções `Gitnória`, `Reactpuff`, `Corvinode` e `Pytherina`', () => {
     beforeEach(() => cy.get(EVALUATION_FORM).as('houses'));
 
     const HOUSES = [
@@ -195,13 +195,13 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('10 - Alinhe os campos de "Nome" e "Sobrenome" para que fiquem em linha', () => {
+  describe('10 - Posicione os campos de `Nome` e `Sobrenome` para que fiquem em linha', () => {
     it('O campo de "Sobrenome" está a direita do campo de "Nome"', () => {
       cy.get(USER_LASTNAME_INPUT_SELECTOR).should('be.rightOf', USER_NAME_INPUT_SELECTOR);
     });
   });
 
-  describe('11 - Alinhe os campos de "Email" e "Casa" para que fiquem em linha', () => {
+  describe('11 - Posicione os campos de `Email` e `Casa` para que fiquem em linha', () => {
     it('O select das casas está a direita do campo de "Email"', () => {
       cy.get(HOUSES_SELECTOR).should('be.rightOf', USER_EMAIL_INPUT_SELECTOR);
     });
@@ -236,7 +236,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('13 - Crie campos de entrada do tipo "checkbox" contendo seis opções', () => {
+  describe('13 - Crie campos de entrada do tipo `checkbox` contendo seis opções', () => {
     it('Existe um elemento com o id "label-content" e o texto "Qual conteúdo você está com mais vontade de aprender?"', () => {
       cy.get('#label-content').contains(LABEL_CONTENT_TEXT);
     });
@@ -273,7 +273,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('15 - Crie uma textarea com o id "textarea" e uma label com a classe "textarea" contendo o número máximo de caracteres igual à 500', () => {
+  describe('15 - Crie uma textarea com o id `textarea` e uma label com a classe `textarea` contendo o número máximo de caracteres igual à 500', () => {
     it('Uma label com a classe textarea e o texto "Deixe seu comentário:" deverá ser criado" ', () => {
       cy.get('.textarea').contains(LABEL_TEXTAREA);
     });
@@ -286,7 +286,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('16 - Crie um campo de entrada do tipo "checkbox" com o id "agreement" para validar as informações', () => {
+  describe('16 - Crie um campo de entrada do tipo `checkbox` com o id `agreement` para validar as informações', () => {
     it('Uma label com o id "label-infos" deve possuir o texto "Você concorda com o uso das informações acima?"', () => {
       cy.get('label#label-infos')
         .should('exist')
@@ -307,7 +307,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('18 - Faça com que o botão "Enviar" seja habilitado somente após a checkbox do requisito 16 ser selecionada', () => {
+  describe('18 - Faça com que o botão `Enviar` seja habilitado somente após a checkbox do requisito 16 ser selecionada', () => {
     it('O botão deve inicialmente estar desabilitado', () => {
       cy.get('button#submit-btn')
         .should('be.disabled');
@@ -330,7 +330,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('20 - Crie um contador com o ID "counter" contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea', () => {
+  describe('20 - Crie um contador com o ID `counter` contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea', () => {
     it('Deve existir um contador com o ID "counter"', () => {
       cy.get('#counter').should('exist');
     });
@@ -346,7 +346,7 @@ describe('Trybewarts', () => {
     });
   });
 
-  describe('21 - Faça com que ao clicar no botão "Enviar", o conteúdo do formulário seja substituído pelas informações preenchidas', () => {
+  describe('21 - Faça com que ao clicar no botão `Enviar`, o conteúdo do formulário seja substituído pelas informações preenchidas', () => {
     const firstName = 'John';
     const lastName = 'Doe';
     const email = 'johndoe@trybe.com';
