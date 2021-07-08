@@ -13,7 +13,7 @@
       ]
     },
     {
-      "description": "2 - Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` no canto esquerdo da barra superior",
+      "description": "2 - Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` na barra superior",
       "bonus": false,
       "skill_ids": [
         "17ae12c3-98f2-4d02-8a68-246998ebe9c0",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "description": "3 - Acrescente um formulário de autenticação no canto direito da barra superior contendo os inputs de login, de senha e um botão de entrar",
+      "description": "3 - Acrescente um formulário de login no canto direito da barra superior contendo os inputs de email, senha e um botão de login",
       "bonus": false,
       "skill_ids": [
         "043321cd-64e8-423d-bb64-c9c6e4c17e32",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "description": "4 - Crie um título com o texto 'Trybewarts' centralizado dentro do 'Header'",
+      "description": "4 - Crie um título com o texto \"Trybewarts\" centralizado dentro do \"Header\"",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "description": "5 - Adicione um formulário no corpo da página, posicionado ao lado esquerdo",
+      "description": "5 - Adicione um formulário no corpo da página",
       "bonus": false,
       "skill_ids": [
         "061bab86-fb8e-443a-aba1-128f8587bc98",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "description": "6 - Crie um id para o formulário do requisito 5",
+      "description": "6 - Faça com que o eixo principal do formulário seja vertical",
       "bonus": false,
       "skill_ids": [
         "e2383150-f640-466b-8120-db777802f474",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "description": "8 - Acrescente no formulário os inputs de 'Nome:', 'Sobrenome:' e 'Email:'",
+      "description": "8 - Acrescente ao formulário os inputs de \"Nome\", \"Sobrenome\" e \"Email\"",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -89,14 +89,14 @@
       ]
     },
     {
-      "description": "9 - Crie um select 'Casa' contendo quatro options",
+      "description": "9 - Acrescente ao formulário um select com o id \"houses\" contendo as opções \"Gitnória\", \"Reactpuff\", \"Corvinode\" e \"Pytherina\"",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a"
       ]
     },
     {
-      "description": "10 - Alinhe os campos de 'Nome' e 'Sobrenome' para que fiquem em linha",
+      "description": "10 - Alinhe os campos de \"Nome\" e \"Sobrenome\" para que fiquem em linha",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "description": "11 - Alinhe os campos de 'Email' e 'Casa' para que fiquem em linha",
+      "description": "11 - Alinhe os campos de \"Email\" e \"Casa\" para que fiquem em linha",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "description": "12 - Crie um campo de entrada para qual família a pessoa estudante se identifica",
+      "description": "12 - Acrescente ao formulário um campo de entrada para qual família a pessoa estudante se identifica",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "description": "13 - Crie campos de entrada do tipo 'checkbox' contendo seis opções",
+      "description": "13 - Crie campos de entrada do tipo \"checkbox\" contendo seis opções",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -151,7 +151,7 @@
       ]
     },
     {
-      "description": "15 - Crie uma textarea com o id 'textarea' e uma label com a classe 'textarea' contendo o número máximo de caracteres igual à 500",
+      "description": "15 - Crie uma textarea com o id \"textarea\" e uma label com a classe \"textarea\" contendo o número máximo de caracteres igual à 500",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -159,7 +159,7 @@
       ]
     },
     {
-      "description": "16 - Crie um campo de entrada do tipo 'checkbox' com o id 'agreement' para validar as informações",
+      "description": "16 - Crie um campo de entrada do tipo \"checkbox\" com o id \"agreement\" para validar as informações",
       "bonus": false,
       "skill_ids": [
         "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "description": "18 - Faça com que o botão 'Enviar' seja habilitado somente após a checkbox do requisito 16 ser selecionada",
+      "description": "18 - Faça com que o botão \"Enviar\" seja habilitado somente após a checkbox do requisito 16 ser selecionada",
       "bonus": false,
       "skill_ids": [
         "135bf685-05f2-44df-9376-5bbc7c61472e",
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "description": "20 - Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea",
+      "description": "20 - Crie um contador com o ID \"counter\" contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea",
       "bonus": true,
       "skill_ids": [
         "135bf685-05f2-44df-9376-5bbc7c61472e",
@@ -228,7 +228,7 @@
       ]
     },
     {
-      "description": "21 - Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas",
+      "description": "21 - Faça com que ao clicar no botão \"Enviar\", o conteúdo do formulário seja substituído pelas informações preenchidas",
       "bonus": true,
       "skill_ids": [
         "135bf685-05f2-44df-9376-5bbc7c61472e",
