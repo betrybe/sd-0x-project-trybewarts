@@ -91,7 +91,7 @@ describe('Trybewarts', () => {
       });
     });
 
-    it('Ao clicar no botão com login ou senha inválidos, emite um alerta contendo o texto "Login ou senha inválidos."', () => {
+    it('Ao clicar no botão com email ou senha inválidos, emite um alerta contendo o texto "Email ou senha inválidos."', () => {
       const stub = cy.stub();
       cy.on('window:alert', stub);
       cy.get(`${TRYBEWARTS_LOGIN_FORM_SELECTOR} button`).click().then(() => {
@@ -157,6 +157,11 @@ describe('Trybewarts', () => {
     it('A imagem deve possuir um `height` de `500px`', () => {
       cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR)
         .should('have.css', 'height', '500px')
+    });
+
+    it('A imagem deve estar posicionada a direita do formulário com id `evaluation-form`', () => {
+      cy.get(TRYBEWARTS_LOGO_FORMS_SELECTOR)
+        .should('be.rightOf', EVALUATION_FORM);
     });
   });
 
